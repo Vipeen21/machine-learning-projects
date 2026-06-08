@@ -47,8 +47,12 @@ To maintain production-grade rigor, the flagship ensemble model is heavily bench
 | Algorithm | Model Type | Complexity | Key Use Case in FinTech | Strengths |
 |---|---|---|---|---|
 | XGBoost | Gradient Boosted Trees | High | Primary Risk Scoring Engine | Captures non-linear feature interactions, handles missing data natively, limits overfitting |
+| Logistic Regression | Linear Statistical Model | Low | Baseline Comparative Framework | High interpretability, fast inference, establishes linear boundary sanity checks |
+| K-Nearest Neighbors | Instance-Based Learning |Medium |Pattern Recognition | Effectively groups localized customer profiles based on financial proximity metrics |
 
-Logistic RegressionLinear Statistical ModelLowBaseline Comparative FrameworkHigh interpretability, fast inference, establishes linear boundary sanity checks.K-Nearest NeighborsInstance-Based LearningMediumPattern RecognitionEffectively groups localized customer profiles based on financial proximity metrics.📂 Repository Blueprint├── credit_score_model.py          # Primary XGBoost pipeline for default risk evaluation
+## 📂 Repository Blueprint
+
+├── credit_score_model.py          # Primary XGBoost pipeline for default risk evaluation
 ├── Logistic_Regression.py         # Baseline classification model for binary risk outcomes
 ├── KNN.py                         # Instance-based classification engine
 ├── latex code for xgboost...      # Production LaTeX code for academic-grade documentation

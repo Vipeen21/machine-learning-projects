@@ -1,4 +1,17 @@
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+[![GitHub followers](https://img.shields.io/github/followers/Vipeen21?style=for-the-badge&color=21262d&labelColor=161b22&logo=github)](https://github.com/Vipeen21)
+[![GitHub stars](https://img.shields.io/github/stars/Vipeen21/machine-learning-projects?style=for-the-badge&color=e3b341&labelColor=161b22&logo=github)](https://github.com/Vipeen21/machine-learning-projects/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Vipeen21/machine-learning-projects?style=for-the-badge&color=58a6ff&labelColor=161b22&logo=github)](https://github.com/Vipeen21/machine-learning-projects/network/members)
+[![GitHub license](https://img.shields.io/github/license/Vipeen21/machine-learning-projects?style=for-the-badge&color=30a14e&labelColor=161b22)](https://github.com/Vipeen21/machine-learning-projects/blob/main/LICENSE)
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/XGBoost-111111?style=flat-square&logo=xgboost&logoColor=white" alt="XGBoost">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX">
+</p>
+
+---
 ---
 
 # 🤖 Machine Learning for Finance & Credit Scoring

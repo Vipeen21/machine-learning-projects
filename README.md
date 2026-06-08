@@ -16,7 +16,12 @@
 
 # 🤖 Machine Learning for Finance & Credit Scoring
 
-Welcome to my Machine Learning portfolio. This repository bridges the gap between raw financial data and intelligent decision-making, applying supervised machine learning algorithms to solve high-stakes problems in Credit Risk Assessment, Predictive Modeling, and FinTech Analytics.🎯 Flagship Project: Credit Scoring SystemEvaluating the creditworthiness of individuals is a classic, critical problem in financial risk management. This project builds a high-performance Credit Score Prediction system designed to minimize default risks by uncovering complex, non-linear relationships within historical financial indicators.🏗️ Pipeline Architecture & System DesignThe system decouples data extraction and preprocessing from core algorithmic execution, ensuring a reliable data science lifecycle:Code snippetgraph TD
+Welcome to my Machine Learning portfolio. This repository bridges the gap between raw financial data and intelligent decision-making, applying supervised machine learning algorithms to solve high-stakes problems in Credit Risk Assessment, Predictive Modeling, and FinTech Analytics.
+
+---
+
+## 🎯 Flagship Project: Credit Scoring System
+Evaluating the creditworthiness of individuals is a classic, critical problem in financial risk management. This project builds a high-performance Credit Score Prediction system designed to minimize default risks by uncovering complex, non-linear relationships within historical financial indicators.🏗️ Pipeline Architecture & System DesignThe system decouples data extraction and preprocessing from core algorithmic execution, ensuring a reliable data science lifecycle:Code snippetgraph TD
     A[Raw Financial Data Ingestion] --> B[Data Preprocessing & Scaling]
     B --> C[Feature Engineering & Selection]
     C --> D{Model Selection Layer}

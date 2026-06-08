@@ -22,7 +22,9 @@ Welcome to my Machine Learning portfolio. This repository bridges the gap betwee
 ---
 
 ## 🎯 Flagship Project: Credit Scoring System
+
 Evaluating the creditworthiness of individuals is a classic, critical problem in financial risk management. This project builds a high-performance Credit Score Prediction system designed to minimize default risks by uncovering complex, non-linear relationships within historical financial indicators.
+
 ### 🏗️ Pipeline Architecture & System Design
 
 The system decouples data extraction and preprocessing from core algorithmic execution, ensuring a reliable data science lifecycle:
@@ -60,7 +62,15 @@ To maintain production-grade rigor, the flagship ensemble model is heavily bench
 ├── actual_vs_predicted.png        # Performance curve charting real vs. inferred default risks
 ├── machine learning course.pdf    # Comprehensive theoretical notes on ML fundamentals
 └── machine learning...use cases.pdf # Specialized application mapping for financial models
-⚡ Quick Start & InstallationGet the production model running locally in under two minutes:Bash# 1. Clone the repository
+
+---
+
+## ⚡ Quick Start & Installation
+
+Get the production model running locally in under two minutes:
+
+```Bash
+# 1. Clone the repository
 git clone https://github.com/Vipeen21/machine-learning-projects.git
 cd machine-learning-projects
 
@@ -69,4 +79,19 @@ pip install xgboost scikit-learn pandas matplotlib seaborn
 
 # 3. Execute the core credit scoring engine
 python credit_score_model.py
-🔮 Future Roadmap & Scalability Matrix[ ] Hyperparameter Optimization Engine: Integrate Optuna for automated Bayesian optimization of XGBoost parameters.[ ] Explainable AI (XAI): Integrate SHAP (SHapley Additive exPlanations) values to make credit default predictions fully auditable.[ ] Production API Layer: Wrap the model inside a lightweight FastAPI endpoint containerized via Docker.🤝 Connect & CollaborateIf you find this quantitative repository insightful for your financial modeling, AI research, or academic pursuits, consider dropping a star! ⭐Author: Vipeen KumarLinkedIn: Profile LinkPortfolio Website: vipeen21.github.io#MachineLearning #QuantitativeFinance #CreditScoring #FinTech #DataScience #XGBoost
+```
+
+## 🔮 Future Roadmap & Scalability Matrix
+
+* Hyperparameter Optimization Engine: Integrate Optuna for automated Bayesian optimization of XGBoost parameters.
+* Explainable AI (XAI): Integrate SHAP (SHapley Additive exPlanations) values to make credit default predictions fully auditable.
+* Production API Layer: Wrap the model inside a lightweight FastAPI endpoint containerized via Docker.
+  
+## 🤝 Connect & Collaborate 
+
+If you find this quantitative repository insightful for your financial modelling, AI research, or academic pursuits, consider dropping a star! ⭐
+* Author: Vipeen Kumar
+* LinkedIn: Profile Link
+* Portfolio Website: vipeen21.github.io
+
+#MachineLearning #QuantitativeFinance #CreditScoring #FinTech #DataScience #XGBoost

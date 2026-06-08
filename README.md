@@ -93,8 +93,9 @@ python credit_score_model.py
 ## 🤝 Connect & Collaborate 
 
 If you find this quantitative repository insightful for your financial modelling, AI research, or academic pursuits, consider dropping a star! ⭐
-* Author: Vipeen Kumar
-* LinkedIn: (https://www.linkedin.com/in/vipeen-kumar-908212b8/)
-* Portfolio Website: (https://vipeen21.github.io/)
+
+* **Author:** Vipeen Kumar
+* **LinkedIn:** [Profile Link](https://www.google.com/search?q=https://linkedin.com/in/vipeen-kumar-908212b8)
+* **Portfolio Website:** [vipeen21.github.io](https://www.google.com/search?q=https://vipeen21.github.io)
 
 `#MachineLearning` `#QuantitativeFinance` `#CreditScoring` `#FinTech` `#DataScience` `#XGBoost`

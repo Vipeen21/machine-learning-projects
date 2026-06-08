@@ -25,6 +25,8 @@ Welcome to my Machine Learning portfolio. This repository bridges the gap betwee
 
 Evaluating the creditworthiness of individuals is a classic, critical problem in financial risk management. This project builds a high-performance Credit Score Prediction system designed to minimize default risks by uncovering complex, non-linear relationships within historical financial indicators.
 
+---
+
 ### 🏗️ Pipeline Architecture & System Design
 
 The system decouples data extraction and preprocessing from core algorithmic execution, ensuring a reliable data science lifecycle:
@@ -54,6 +56,7 @@ To maintain production-grade rigor, the flagship ensemble model is heavily bench
 
 ## 📂 Repository Blueprint
 
+```text
 ├── credit_score_model.py          # Primary XGBoost pipeline for default risk evaluation
 ├── Logistic_Regression.py         # Baseline classification model for binary risk outcomes
 ├── KNN.py                         # Instance-based classification engine
@@ -62,7 +65,7 @@ To maintain production-grade rigor, the flagship ensemble model is heavily bench
 ├── actual_vs_predicted.png        # Performance curve charting real vs. inferred default risks
 ├── machine learning course.pdf    # Comprehensive theoretical notes on ML fundamentals
 └── machine learning...use cases.pdf # Specialized application mapping for financial models
-
+```
 ---
 
 ## ⚡ Quick Start & Installation

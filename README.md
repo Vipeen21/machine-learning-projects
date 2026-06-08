@@ -1,3 +1,5 @@
+# 🤖 Machine Learning for Finance & Credit Scoring
+
 [![GitHub followers](https://img.shields.io/github/followers/Vipeen21?style=for-the-badge&color=21262d&labelColor=161b22&logo=github)](https://github.com/Vipeen21)
 [![GitHub stars](https://img.shields.io/github/stars/Vipeen21/machine-learning-projects?style=for-the-badge&color=e3b341&labelColor=161b22&logo=github)](https://github.com/Vipeen21/machine-learning-projects/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Vipeen21/machine-learning-projects?style=for-the-badge&color=58a6ff&labelColor=161b22&logo=github)](https://github.com/Vipeen21/machine-learning-projects/network/members)
@@ -12,16 +14,21 @@
 </p>
 
 ---
----
 
-# 🤖 Machine Learning for Finance & Credit Scoring
+
 
 Welcome to my Machine Learning portfolio. This repository bridges the gap between raw financial data and intelligent decision-making, applying supervised machine learning algorithms to solve high-stakes problems in Credit Risk Assessment, Predictive Modeling, and FinTech Analytics.
 
 ---
 
 ## 🎯 Flagship Project: Credit Scoring System
-Evaluating the creditworthiness of individuals is a classic, critical problem in financial risk management. This project builds a high-performance Credit Score Prediction system designed to minimize default risks by uncovering complex, non-linear relationships within historical financial indicators.🏗️ Pipeline Architecture & System DesignThe system decouples data extraction and preprocessing from core algorithmic execution, ensuring a reliable data science lifecycle:Code snippetgraph TD
+Evaluating the creditworthiness of individuals is a classic, critical problem in financial risk management. This project builds a high-performance Credit Score Prediction system designed to minimize default risks by uncovering complex, non-linear relationships within historical financial indicators.
+### 🏗️ Pipeline Architecture & System Design
+
+The system decouples data extraction and preprocessing from core algorithmic execution, ensuring a reliable data science lifecycle:
+
+```mermaid
+graph TD
     A[Raw Financial Data Ingestion] --> B[Data Preprocessing & Scaling]
     B --> C[Feature Engineering & Selection]
     C --> D{Model Selection Layer}
@@ -32,7 +39,15 @@ Evaluating the creditworthiness of individuals is a classic, critical problem in
     F --> H
     G --> H
     H --> I[Academic-Grade LaTeX Reporting]
-📊 Performance & Model Comparison SpectrumTo maintain production-grade rigor, the flagship ensemble model is heavily benchmarked against classical statistical and instance-based classifiers:AlgorithmModel TypeComplexityKey Use Case in FinTechStrengthsXGBoostGradient Boosted TreesHighPrimary Risk Scoring EngineCaptures non-linear feature interactions, handles missing data natively, limits overfitting.Logistic RegressionLinear Statistical ModelLowBaseline Comparative FrameworkHigh interpretability, fast inference, establishes linear boundary sanity checks.K-Nearest NeighborsInstance-Based LearningMediumPattern RecognitionEffectively groups localized customer profiles based on financial proximity metrics.📂 Repository Blueprint├── credit_score_model.py          # Primary XGBoost pipeline for default risk evaluation
+```
+## 📊 Performance & Model Comparison Spectrum
+
+To maintain production-grade rigor, the flagship ensemble model is heavily benchmarked against classical statistical and instance-based classifiers:
+
+| Algorithm | Model | Type | Complexity | Key Use Case in FinTech | Strengths |
+|---|---|---|---|---|
+| XGBoost | Gradient Boosted Trees | High | Primary Risk Scoring Engine | Captures non-linear feature interactions, handles missing data natively, limits overfitting |
+Logistic RegressionLinear Statistical ModelLowBaseline Comparative FrameworkHigh interpretability, fast inference, establishes linear boundary sanity checks.K-Nearest NeighborsInstance-Based LearningMediumPattern RecognitionEffectively groups localized customer profiles based on financial proximity metrics.📂 Repository Blueprint├── credit_score_model.py          # Primary XGBoost pipeline for default risk evaluation
 ├── Logistic_Regression.py         # Baseline classification model for binary risk outcomes
 ├── KNN.py                         # Instance-based classification engine
 ├── latex code for xgboost...      # Production LaTeX code for academic-grade documentation

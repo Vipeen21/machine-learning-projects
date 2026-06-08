@@ -97,4 +97,4 @@ If you find this quantitative repository insightful for your financial modelling
 * LinkedIn: Profile Link
 * Portfolio Website: vipeen21.github.io
 
-#MachineLearning #QuantitativeFinance #CreditScoring #FinTech #DataScience #XGBoost
+`#MachineLearning` `#QuantitativeFinance` `#CreditScoring` `#FinTech` `#DataScience` `#XGBoost`
